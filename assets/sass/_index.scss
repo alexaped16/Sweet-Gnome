@@ -1,0 +1,29 @@
+@mixin backgroundImage($name){
+  background-size: cover;
+  background-reapeat: no-reapeat;
+  background-position: 0 0;
+  $url:"/assets/img/#{$name}";
+  background: url($url);
+}
+
+.overlay{
+  padding: 30px; 
+}
+
+.overlay p {
+    margin: 0;
+    font-size: 28px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:400;
+  }
+  
+// big image as background
+.big-image{
+  @include backgroundImage ("side-cupcakes.png");
+
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+  background-position: 50% 50%;
+  background-size: cover;
+}

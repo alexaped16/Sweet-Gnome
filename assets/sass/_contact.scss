@@ -1,0 +1,23 @@
+fieldset {
+    padding: 5px;
+    margin-bottom: 10px;  
+  }
+  
+  input {
+    text-transform: lowercase;
+    width: 40%;
+    border: 2px solid; 
+    padding: 5px; 
+  }
+  
+  textarea{
+    text-transform: lowercase;
+    height: 160px;
+    width: 40%;  
+    padding: 5px;  
+  }
+
+  button{
+    background-color: black; 
+    color: white; 
+  }
