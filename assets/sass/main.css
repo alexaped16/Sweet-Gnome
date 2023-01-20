@@ -70,6 +70,21 @@ h2 {
   font-size: 30px;
 }
 
+.btn-dark {
+  border-radius: 0px;
+  margin-top: 10px;
+}
+
+.btn-secondary {
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: rgba(85, 144, 212, 0.688);
+}
+.btn-secondary:hover {
+  background-color: white;
+  color: black;
+}
+
 nav {
   background-color: #dbdbf5;
   opacity: 0.9;
@@ -269,11 +284,19 @@ nav a {
   padding: 30px;
 }
 
+@media (max-width: 700px) {
+  .overlay h1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 700px) {
+  .overlay p {
+    font-size: 15px;
+  }
+}
 .overlay p {
   margin: 0;
-  font-size: 28px;
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
 }
 
 .big-image {
@@ -281,10 +304,10 @@ nav a {
   background-reapeat: no-reapeat;
   background-position: 0 0;
   background: url("/assets/img/side-cupcakes.png");
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   position: relative;
-  background-position: 50% 50%;
+  background-position: 100% 100%;
   background-size: cover;
 }
 
@@ -310,4 +333,8 @@ textarea {
 button {
   background-color: black;
   color: white;
+}
+
+.card {
+  margin: 30px;
 }/*# sourceMappingURL=main.css.map */

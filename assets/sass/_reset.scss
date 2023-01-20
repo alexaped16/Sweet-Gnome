@@ -42,3 +42,19 @@ h1{
 h2{
   font-size: 30px; 
 }
+
+.btn-dark{
+  border-radius: 0px;
+  margin-top: 10px;  
+}
+
+.btn-secondary{
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: rgba(85, 144, 212, 0.688); 
+
+  &:hover{
+    background-color: white;
+    color: black;  
+  }
+}
