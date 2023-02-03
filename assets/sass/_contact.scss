@@ -9,6 +9,25 @@ fieldset {
     border: 2px solid; 
     padding: 5px; 
   }
+
+  fieldset input:focus {
+    -moz-box-shadow: 0 1px 2px #eee inset;
+    -webkit-box-shadow: 0 1px 2px #eee inset;
+    box-shadow: 0 1px 2px #eee inset;
+    outline: 0;   
+  }
+
+  @media (max-width: 500px){
+    fieldset input{
+      width: 100%; 
+    } 
+  }
+
+  @media (max-width: 500px){
+    fieldset textarea{
+      width: 100%; 
+    } 
+  }
   
   textarea{
     text-transform: lowercase;
