@@ -12,7 +12,6 @@ nav {
   nav a {
     color: black;      
     text-decoration: none;
-    text-transform: uppercase;
     font-weight: 100;
     font-weight: bold;  
   }
@@ -24,7 +23,7 @@ nav {
   }
   
   .item {
-    padding: 15px;
+    padding: 20px;
   }
 
   
@@ -46,7 +45,7 @@ nav {
   
   .nav-menu li a {
     display: block;
-    padding: 20px 10px;
+    padding: 15px 10px; 
   }
   
   .nav-menu li.drop-down-item a {
@@ -169,7 +168,6 @@ nav {
   }
   .site-footer h6
   {  
-    text-transform:uppercase;
     margin-top:5px;
     letter-spacing:2px
   }

@@ -118,7 +118,6 @@ nav {
 nav a {
   color: black;
   text-decoration: none;
-  text-transform: uppercase;
   font-weight: 100;
   font-weight: bold;
 }
@@ -130,7 +129,7 @@ nav a {
 }
 
 .item {
-  padding: 15px;
+  padding: 20px;
 }
 
 .item a:hover,
@@ -150,7 +149,7 @@ nav a {
 
 .nav-menu li a {
   display: block;
-  padding: 20px 10px;
+  padding: 15px 10px;
 }
 
 .nav-menu li.drop-down-item a {
@@ -259,7 +258,6 @@ nav a {
 }
 
 .site-footer h6 {
-  text-transform: uppercase;
   margin-top: 5px;
   letter-spacing: 2px;
 }
@@ -375,4 +373,5 @@ button {
 
 .card {
   margin: 30px;
+  border: none;
 }/*# sourceMappingURL=main.css.map */
